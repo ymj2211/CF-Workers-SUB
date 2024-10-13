@@ -12,12 +12,20 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://b7a392e2-4ef0-4496-90bc-1c37bb234904@cf.090227.xyz:443?encryption=none&security=tls&sni=edgetunnel-2z2.pages.dev&fp=random&type=ws&host=edgetunnel-2z2.pages.dev&path=%2F%3Fed%3D2048#%E5%8A%A0%E5%85%A5%E6%88%91%E7%9A%84%E9%A2%91%E9%81%93t.me%2FCMLiussss%E8%A7%A3%E9%94%81%E6%9B%B4%E5%A4%9A%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9
-https://sub.xf.free.hr/auto
+vmess://eyJ2IjoiMiIsInBzIjoiU0ctdm1lc3Mrd3MiLCJhZGQiOiJzZy55bWoyMjExLnh5eiIsInBvcnQiOiIzODA2MCIsImlkIjoiM2FjMmU5ZTMtNTdmMi00MGRkLTk5YzUtMThlZmI3ODg1ODhkIiwiaG9zdCI6IiIsInBhdGgiOiIveW1qMjIxMSIsIm5ldCI6IndzIiwic2VjdXJpdHkiOiJhdXRvIn0=
+vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@sg.ymj2211.xyz:38061?host=&path=%2Fymj2211&type=ws&encryption=none&security=tls&sni=sg.ymj2211.xyz#SG-vless+ws+tls
+vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@162.159.254.134:443?encryption=none&security=tls&sni=sz.ymj2211.xyz&type=ws&host=sz.ymj2211.xyz&path=%2F%3Fproxyip%3Dproxyip.aliyun.fxxk.dedyn.io#%F0%9F%9A%80CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9%201
+vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@104.19.79.238:443?encryption=none&security=tls&sni=sz.ymj2211.xyz&type=ws&host=sz.ymj2211.xyz&path=%2F%3Fproxyip%3Dproxyip.aliyun.fxxk.dedyn.io#%F0%9F%9A%80CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9%202
+vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@104.19.99.231:443?encryption=none&security=tls&sni=sz.ymj2211.xyz&type=ws&host=sz.ymj2211.xyz&path=%2F%3Fproxyip%3Dproxyip.aliyun.fxxk.dedyn.io#%F0%9F%9A%80CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9%203
+vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@104.20.14.130:443?encryption=none&security=tls&sni=sz.ymj2211.xyz&type=ws&host=sz.ymj2211.xyz&path=%2F%3Fproxyip%3Dproxyip.aliyun.fxxk.dedyn.io#%F0%9F%9A%80CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9%204
+vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@104.19.132.166:443?encryption=none&security=tls&sni=sz.ymj2211.xyz&type=ws&host=sz.ymj2211.xyz&path=%2F%3Fproxyip%3Dproxyip.aliyun.fxxk.dedyn.io#%F0%9F%9A%80CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9%205
+https://vless.durl.nyc.mn/sub?host=sz.ymj2211.xyz&uuid=3ac2e9e3-57f2-40dd-99c5-18efb788588d&path=/?proxyip=proxyip.aliyun.fxxk.dedyn.io
+https://alvless.comorg.us.kg/sub?host=sz.ymj2211.xyz&uuid=3ac2e9e3-57f2-40dd-99c5-18efb788588d&path=/?proxyip=proxyip.aliyun.fxxk.dedyn.io
+https://VLESS.fxxk.dedyn.io/sub?host=sz.ymj2211.xyz&uuid=3ac2e9e3-57f2-40dd-99c5-18efb788588d&path=/?proxyip=proxyip.aliyun.fxxk.dedyn.io
 `
 
 let urls = [];
-let subconverter = "SUBAPI.fxxk.dedyn.io"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
+let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
 let subconfig = "https://raw.githubusercontent.com/ymj2211/ACL4SSR/refs/heads/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; //订阅配置文件
 let subProtocol = 'https';
 
