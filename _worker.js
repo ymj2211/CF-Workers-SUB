@@ -12,7 +12,6 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vmess://eyJ2IjoiMiIsInBzIjoiU0ctdm1lc3Mrd3MiLCJhZGQiOiJzZy55bWoyMjExLnh5eiIsInBvcnQiOiIzODA2MCIsImlkIjoiM2FjMmU5ZTMtNTdmMi00MGRkLTk5YzUtMThlZmI3ODg1ODhkIiwiaG9zdCI6IiIsInBhdGgiOiIveW1qMjIxMSIsIm5ldCI6IndzIiwic2VjdXJpdHkiOiJhdXRvIn0=
 vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@sg.ymj2211.xyz:38061?host=&path=%2Fymj2211&type=ws&encryption=none&security=tls&sni=sg.ymj2211.xyz#SG-vless+ws+tls
 vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@162.159.254.134:443?encryption=none&security=tls&sni=sz.ymj2211.xyz&type=ws&host=sz.ymj2211.xyz&path=%2F%3Fproxyip%3Dproxyip.aliyun.fxxk.dedyn.io#%F0%9F%9A%80CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9%201
 vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@104.19.79.238:443?encryption=none&security=tls&sni=sz.ymj2211.xyz&type=ws&host=sz.ymj2211.xyz&path=%2F%3Fproxyip%3Dproxyip.aliyun.fxxk.dedyn.io#%F0%9F%9A%80CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9%202
