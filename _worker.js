@@ -18,9 +18,9 @@ vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@104.19.79.238:443?encryption=none&s
 vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@104.19.99.231:443?encryption=none&security=tls&sni=sz.ymj2211.xyz&type=ws&host=sz.ymj2211.xyz&path=%2F%3Fproxyip%3Dproxyip.aliyun.fxxk.dedyn.io#%F0%9F%9A%80CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9%203
 vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@104.20.14.130:443?encryption=none&security=tls&sni=sz.ymj2211.xyz&type=ws&host=sz.ymj2211.xyz&path=%2F%3Fproxyip%3Dproxyip.aliyun.fxxk.dedyn.io#%F0%9F%9A%80CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9%204
 vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@104.19.132.166:443?encryption=none&security=tls&sni=sz.ymj2211.xyz&type=ws&host=sz.ymj2211.xyz&path=%2F%3Fproxyip%3Dproxyip.aliyun.fxxk.dedyn.io#%F0%9F%9A%80CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9%205
-https://vless.durl.nyc.mn/sub?host=sz.ymj2211.xyz&uuid=3ac2e9e3-57f2-40dd-99c5-18efb788588d&path=/?proxyip=proxyip.aliyun.fxxk.dedyn.io
-https://alvless.comorg.us.kg/sub?host=sz.ymj2211.xyz&uuid=3ac2e9e3-57f2-40dd-99c5-18efb788588d&path=/?proxyip=proxyip.aliyun.fxxk.dedyn.io
-https://VLESS.fxxk.dedyn.io/sub?host=sz.ymj2211.xyz&uuid=3ac2e9e3-57f2-40dd-99c5-18efb788588d&path=/?proxyip=proxyip.aliyun.fxxk.dedyn.io
+https://sz.ymj2211.xyz/3ac2e9e3-57f2-40dd-99c5-18efb788588d?clash
+https://alvless.comorg.us.kg/sub?host=sz.ymj2211.xyz&uuid=3ac2e9e3-57f2-40dd-99c5-18efb788588d
+https://VLESS.fxxk.dedyn.io/sub?host=sz.ymj2211.xyz&uuid=3ac2e9e3-57f2-40dd-99c5-18efb788588d
 `
 
 let urls = [];
