@@ -12,15 +12,16 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
+vmess://eyJ2IjoiMiIsInBzIjoiU0ctdm1lc3Mrd3MiLCJhZGQiOiJzZy55bWoyMjExLnh5eiIsInBvcnQiOiI0NDMiLCJpZCI6IjNhYzJlOWUzLTU3ZjItNDBkZC05OWM1LTE4ZWZiNzg4NTg4ZCIsImhvc3QiOiIiLCJwYXRoIjoiL3ltajIyMTEiLCJuZXQiOiJ3cyIsInNlY3VyaXR5IjoiYXV0byJ9
 vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@sg.ymj2211.xyz:38061?host=&path=%2Fymj2211&type=ws&encryption=none&security=tls&sni=sg.ymj2211.xyz#SG-vless+ws+tls
 vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@162.159.254.134:443?encryption=none&security=tls&sni=sz.ymj2211.xyz&type=ws&host=sz.ymj2211.xyz&path=%2F%3Fproxyip%3Dproxyip.aliyun.fxxk.dedyn.io#%F0%9F%9A%80CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9%201
 vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@104.19.79.238:443?encryption=none&security=tls&sni=sz.ymj2211.xyz&type=ws&host=sz.ymj2211.xyz&path=%2F%3Fproxyip%3Dproxyip.aliyun.fxxk.dedyn.io#%F0%9F%9A%80CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9%202
 vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@104.19.99.231:443?encryption=none&security=tls&sni=sz.ymj2211.xyz&type=ws&host=sz.ymj2211.xyz&path=%2F%3Fproxyip%3Dproxyip.aliyun.fxxk.dedyn.io#%F0%9F%9A%80CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9%203
 vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@104.20.14.130:443?encryption=none&security=tls&sni=sz.ymj2211.xyz&type=ws&host=sz.ymj2211.xyz&path=%2F%3Fproxyip%3Dproxyip.aliyun.fxxk.dedyn.io#%F0%9F%9A%80CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9%204
 vless://3ac2e9e3-57f2-40dd-99c5-18efb788588d@104.19.132.166:443?encryption=none&security=tls&sni=sz.ymj2211.xyz&type=ws&host=sz.ymj2211.xyz&path=%2F%3Fproxyip%3Dproxyip.aliyun.fxxk.dedyn.io#%F0%9F%9A%80CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9%205
-https://sz.ymj2211.xyz/3ac2e9e3-57f2-40dd-99c5-18efb788588d?clash
-https://sz.ymj2211.xyz/3ac2e9e3-57f2-40dd-99c5-18efb788588d?sub=alvless.comorg.us.kg
-https://sz.ymj2211.xyz/3ac2e9e3-57f2-40dd-99c5-18efb788588d?sub=VLESS.fxxk.dedyn.io
+https://vless.durl.nyc.mn/sub?host=sz.ymj2211.xyz&uuid=3ac2e9e3-57f2-40dd-99c5-18efb788588d
+https://alvless.comorg.us.kg/sub?host=sz.ymj2211.xyz&uuid=3ac2e9e3-57f2-40dd-99c5-18efb788588d
+https://VLESS.fxxk.dedyn.io/sub?host=sz.ymj2211.xyz&uuid=3ac2e9e3-57f2-40dd-99c5-18efb788588d
 `
 
 let urls = [];
