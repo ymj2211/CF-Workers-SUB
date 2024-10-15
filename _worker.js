@@ -25,7 +25,7 @@ https://VLESS.fxxk.dedyn.io/sub?host=sz.ymj2211.xyz&uuid=3ac2e9e3-57f2-40dd-99c5
 `
 
 let urls = [];
-let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
+let subconverter = "SUBAPI.fxxk.dedyn.io"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
 let subconfig = "https://raw.githubusercontent.com/ymj2211/ACL4SSR/refs/heads/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; //订阅配置文件
 let subProtocol = 'https';
 
